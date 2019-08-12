@@ -53,7 +53,7 @@ except ImportError:
 
 try:
     from pyVmomi import vim, vmodl
-    from pyVim.connect import SmartConnect, Disconnect
+    from pyvim.connect import SmartConnect, Disconnect
 except ImportError:
     sys.exit("ERROR: This inventory script required 'pyVmomi' Python module, it was not able to load it")
 
